@@ -13,15 +13,13 @@ function FooterSection() {
     },
     {
       title: "Contact",
-      items: ["(+62) 893912392190", "agecnycr@gmail.com", "Contact us"],
+      items: ["(+62) 893912xxx", "info@capscyber.com", "Contact us"],
     },
     {
       title: "Location",
       items: [
-        "PT Osiris Real Estate Internasional",
-        "Jl. KH. Wahid Hasyim Kel No.10D",
-        "Jakarta, Indonesia",
-        "team@OsirisRealEstate.com",
+        "Jl. Gor Kota",
+        "Purwokerto, Indonesia",
       ],
     },
   ];
@@ -72,7 +70,7 @@ function FooterSection() {
         </div>
 
         <p className="text-white">
-          Copyright @ 2022 Agency Creative. All Right Reserved
+          Copyright @ 2024 Caps. All Right Reserved
         </p>
       </div>
     </section>
