@@ -8,18 +8,14 @@ function HeroSection() {
     <div className="relative mt-32 md:mt-8 ">
       <div className="px-2">
         <p className="text-dark text-[28px] text-center  md:text-[64px] font-extrabold">
-          Make your dream business goal come true
+          Bikin Usaha Servicemu Semakin Dikenal
         </p>
         <p className="text-customGray text-[20px] text-center">
-          when you need us for improve your business,
-        </p>
-        <p className="text-customGray text-[20px] text-center">
-          then come with us to help your business have reach it, you just sit
-          and feel that goal
+          Konsultasi, Kirim Barang, Service Selesai | Customer Senang
         </p>
       </div>
       <div className="flex justify-center my-8">
-        <MainButton text="Start Project" />
+        <MainButton text="Konsultasi Sekarang" />
       </div>
 
       <div className="flex justify-center">

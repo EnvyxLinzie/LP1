@@ -5,27 +5,23 @@ import MainButton from "../common/MainButton";
 function AboutUsSection() {
   return (
     <div>
-      <Header title="About Us" subtitle="Our Teammate" />
+      <Header title="" subtitle="Tim Kami" />
       <div className="flex justify-between items-center gap-8 flex-col md:flex-row">
         <div>
           <img src="/images/team_image.png" alt=" team image" />
         </div>
         <div>
           <p>
-            We move with make a Creative Strategy for help your business goal,
-            we help to improve your income by a services we have. make your
-            content look interesting and make people look for your business
+          Kami adalah tim profesional yang berfokus pada layanan perbaikan dan pemeliharaan perangkat Apple Anda. Dengan keahlian kami, kami memastikan bahwa perangkat Apple Anda selalu dalam kondisi terbaik, siap mendukung produktivitas dan kreativitas Anda.
           </p>
           <p>
-            We move with make a Creative Strategy for help your business goal,
-            we help to improve your income by a services we have. make your
-            content look interesting and make people look for your business
+          Kami juga menyediakan solusi strategis untuk meningkatkan bisnis Anda melalui teknologi. Kami berkomitmen untuk membantu Anda mencapai tujuan bisnis dengan layanan berkualitas yang kami tawarkan, memastikan perangkat Apple Anda selalu berfungsi dengan optimal.
           </p>
 
           <div className="flex gap-4 mt-8">
-            <MainButton text="About Us" />
+            <MainButton text="Tentang Kami" />
             <MainButton
-              text="Our Story"
+              text="Cerita kami"
               classes="bg-white hover:bg-white border border-primary text-primary font-semibold"
               iconRoute="/images/play_icon.png"
             />

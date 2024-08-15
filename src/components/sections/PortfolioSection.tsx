@@ -8,24 +8,26 @@ function PortfolioSection() {
   const data = [
     {
       bgClass: "bg-bg-1",
-      title: "Design Byte App",
+      title: "Konsultasi Kerusakan",
     },
     {
       bgClass: "bg-bg-2",
-      title: "Cloud App",
+      title: "Perbaikan",
       hasDotOnBackground: true,
     },
     {
       bgClass: "bg-bg-3",
-      title: "Design Funiture app",
+      title: "Device Kembali Normal",
     },
   ];
   return (
     <section className="relative">
-      <Header title="Our Portfolio" subtitle="What do we do" />
-      <p className="text-center text-customGray my-8">
-        all projects that we have already done , proven can help to use more
-        comfortable, then can used by client from our business
+      <Header title="" subtitle="Apa yang Kami Lakukan" />
+      <p className="text-center text-customGray mt-8">
+      Kami telah menyelesaikan berbagai proyek yang menunjukkan kemampuan kami dalam memberikan solusi teknologi yang andal dan nyaman digunakan. 
+      </p>
+      <p className="text-center text-customGray mb-8">
+      Setiap proyek yang kami selesaikan membuktikan bahwa layanan kami dapat membantu meningkatkan kenyamanan dan efisiensi penggunaan perangkat, yang telah diakui oleh klien kami.
       </p>
       <div className="flex gap-16 flex-col md:flex-row items-center">
         {data.map((pfl, index) => (
@@ -46,7 +48,7 @@ function PortfolioSection() {
 
       <div className="flex justify-center mt-8">
         <MainButton
-          text="See All Portfolio"
+          text="Konsultasi Sekarang"
           classes="bg-white border border-primary hover:bg-white text-primary font-bold"
         />
       </div>

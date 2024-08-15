@@ -7,29 +7,29 @@ function TestimonialSection() {
     {
       imageUrl: "/images/lady.png",
       name: "Angel Rose",
-      role: "Creative Manager",
+      role: "Manajer IT",
       review:
-        "There are many variations passages of Lorem Ipsum majority some by words which don't look . ",
+        "Layanan dari tim ini benar-benar luar biasa. Perangkat Apple kami selalu dalam kondisi prima berkat keahlian mereka. Sangat direkomendasikan!",
+    },
+    {
+      imageUrl: "/images/lady.png",
+      name: "Rina Amelia",
+      role: "Desainer Grafis",
+      review:
+        "Saya sangat terbantu dengan solusi yang diberikan. Tidak hanya perbaikan, tapi juga saran untuk menjaga performa perangkat kami. Profesional dan cepat!"
     },
     {
       imageUrl: "/images/lady.png",
       name: "Angel Rose",
-      role: "Creative Manager",
-      review:
-        "There are many variations passages of Lorem Ipsum majority some by words which don't look . ",
-    },
-    {
-      imageUrl: "/images/lady.png",
-      name: "Angel Rose",
-      role: "Creative Manager",
+      role: "CEO Startup",
       hasDotOnBackground: true,
       review:
-        "There are many variations passages of Lorem Ipsum majority some by words which don't look . ",
+        "Tim ini tidak hanya memperbaiki masalah perangkat kami, tapi juga memberikan layanan yang ramah dan informatif. Mereka paham betul apa yang dibutuhkan pelanggan."
     },
   ];
   return (
     <section className="relative">
-      <Header title="Testimonial" subtitle="People Talk about us" />
+      <Header title="" subtitle="Apa Kata Mereka Tentang Kami" />
       <div className="flex gap-16 flex-col md:flex-row items-center mt-16">
         {data.map((datum, index) => (
           <TestimonialCard key={index} {...datum} />

@@ -70,7 +70,7 @@ function FooterSection() {
         </div>
 
         <p className="text-white">
-          Copyright @ 2024 Caps. All Right Reserved
+          Copyright @ 2024 Caps Service. All Right Reserved
         </p>
       </div>
     </section>

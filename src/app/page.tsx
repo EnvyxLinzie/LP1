@@ -32,7 +32,6 @@ export default function Home() {
           <ServicesSection />
           <PortfolioSection />
           <TestimonialSection />
-          <CollaborationSection />
         </div>
         <div className="mt-16 md:mt-32">
           <FooterSection />
